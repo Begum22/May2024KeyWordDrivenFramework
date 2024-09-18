@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-15T12:25:08 EDT" name="Smoke Suite" finished-at="2024-09-15T12:25:14 EDT" duration-ms="5337">
+    <groups>
+      <group name="functional">
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" name="validLoginTest" class="com.facebook_tests.LoginTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" name="validLoginTest" class="com.facebook_tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validLoginTest()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" name="validLoginTest" class="com.facebook_tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-09-15T12:25:08 EDT" name="Login Test" finished-at="2024-09-15T12:25:14 EDT" duration-ms="5337">
+      <class name="com.facebook_tests.LoginTest">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" started-at="2024-09-15T12:25:08 EDT" name="openFacebook" finished-at="2024-09-15T12:25:13 EDT" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" started-at="2024-09-15T12:25:13 EDT" name="validLoginTest" finished-at="2024-09-15T12:25:13 EDT" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:com.facebook_tests.LoginTest@36bc55de]" started-at="2024-09-15T12:25:13 EDT" name="closeFacebook" finished-at="2024-09-15T12:25:14 EDT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFacebook -->
+      </class> <!-- com.facebook_tests.LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
